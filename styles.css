@@ -1,1 +1,108 @@
 /*  your css code here. If applicable */
+/* Styling Instructions */
+
+/* body styling */
+body {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container to hold both sections for better centering */
+.container {
+    display: flex;
+    gap: 80px; /* Space between the left and right sections */
+    max-width: 980px; /* Standard Facebook page width */
+}
+
+/* left section styling */
+.left-section {
+    width: 450px;
+    margin-top: 70px; /* Matches the vertical position in the example */
+    display: inline-block; /* Aligns content correctly */
+}
+
+.left-section .logo {
+    height: 106px; /* Adjust logo size */
+    margin: -28px 0 -16px; /* Shift the logo up slightly to align with text */
+}
+
+.left-section .description {
+    font-size: 28px;
+    line-height: 32px;
+    color: #1c1e21;
+}
+
+/* right section styling (contains the form and signup button) */
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px; /* Space from the top to align with the left section */
+}
+
+/* form styling */
+.login-form {
+    display: flex;
+    width: 300px; /* Adjusted to 360px for better fit with original design */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px; /* Space below the form */
+}
+
+/* input styling */
+.login-form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+/* Log in button styling */
+.login-btn {
+    background-color: #1877f2;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%; /* Take up all the width of the container */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Forgotten account link styling */
+.forgot-link {
+    text-decoration: none; /* No underline */
+    color: #1877f2;
+    text-align: center;
+    font-size: 14px;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+/* signup button styling */
+.signup {
+    background-color: #42b72a; /* Corrected typo from '42b72a' to '#42b72a' for a proper hex code */
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    /* Adjust width and margin to match the example visually */
+    width: 200px;
+}
